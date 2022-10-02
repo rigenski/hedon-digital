@@ -1,0 +1,36 @@
+.navbar .navbar-brand img {
+    width: 140px;
+    height: auto;
+}
+
+.navbar .dropdown-toggle {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .dropdown-toggle::after {
+    margin-left: 10px;
+    content: url('src/assets/icons/chevron-down.svg');
+    border: none;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+}
+
+.navbar .navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url('src/assets/icons/menu.svg');
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: 0 0 0 0 !important;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar .navbar-brand img {
+        width: auto;
+        height: 60px;
+    }
+}

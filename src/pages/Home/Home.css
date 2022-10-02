@@ -1,0 +1,46 @@
+.hero {
+    padding: 50px 0 96px;
+    background-image: url('src/assets/images/dividing-line1.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.hero-left {
+    width: 50%;
+}
+
+.hero-left h1 span {
+    background: #4E65A0;
+    border-radius: 15px 0px;
+}
+
+.hero-left img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+.hero-right img {
+    width: 100%;
+    max-width: 580px;
+}
+
+@media screen and (max-width: 992px) {
+    .hero {
+        padding: 50px 0 48px;
+    }
+
+    .hero-left {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-left h3 {
+        margin: 0 0 66px 0 !important;
+    }
+}

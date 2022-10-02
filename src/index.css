@@ -1,0 +1,200 @@
+/* 
+  FONTS
+*/
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: local('Open Sans'), url('src/assets/fonts/OpenSans-Regular.ttf') format('truetype'), url('src/assets/fonts/OpenSans-Medium.ttf') format('truetype'), url('src/assets/fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+/* 
+  GLOBAL
+*/
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  padding: 71.5px 0 0 0;
+}
+
+@media screen and (max-width: 992px) {
+  main {
+    padding: 60px 0 0 0;
+  }
+}
+
+/* 
+  COMPONENTS
+*/
+
+/* TEXT */
+
+.h1 {
+  font-size: 48px;
+}
+
+.h2 {
+  font-size: 36px;
+}
+
+.h3 {
+  font-size: 18px;
+}
+
+.h4 {
+  font-size: 14px;
+}
+
+.h5 {
+  font-size: 12px;
+}
+
+.h6 {
+  font-size: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .h1 {
+    font-size: 28px;
+  }
+  
+  .h2 {
+    font-size: 36px;
+  }
+  
+  .h3 {
+    font-size: 14px;
+  }
+  
+  .h4 {
+    font-size: 14px;
+  }
+  
+  .h5 {
+    font-size: 12px;
+  }
+  
+  .h6 {
+    font-size: 10px;
+  }
+}
+
+.text-main {
+  color: #F76D31;
+}
+
+.text-app {
+  background: linear-gradient(180deg, #F76D31 0%, #FFA947 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.text-dark {
+  color: #2E2E2E;
+}
+
+.text-light {
+  color: #FFFFFF;
+}
+
+.text-info {
+  color: #4E65A0;
+}
+
+.text-gray-600 {
+  color: #2E2E2E;
+}
+
+/* BUTTON */
+
+.btn {
+  padding: 8px 32px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.btn-lg {
+  padding: 16px 32px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-lg {
+    padding: 12px 24px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+
+.btn-app {
+  color: #FFF;
+  background: linear-gradient(180deg, #F76D31 0%, #FFA947 100%);
+}
+
+.btn-app:hover {
+  color: #444444 !important;
+}
+
+.btn-outline-app {
+  position: relative;
+  border-radius: 100px; 
+  background: linear-gradient(180deg, #F76D31 0%, #FFA947 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.btn-outline-app::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 100px; 
+  padding: 2px; 
+  background: linear-gradient(180deg, #F76D31 0%, #FFA947 100%); 
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+}
+
+.btn-outline-app:hover { 
+  background: linear-gradient(180deg, #444444 0%, #444444 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.btn-secondary {
+  color: #444444;
+  border: none;
+  background: #DCDCDC;
+}
+
+.btn-secondary:hover {
+  background: #DCDCDC !important;
+}
+
+/* SHADOW */
+
+.shadow {
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.shadow-sm {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-lg {
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.04);
+}
