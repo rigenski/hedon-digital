@@ -5,9 +5,9 @@ import "./Nav.css";
 const Nav = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-white p-0 shadow-sm position-fixed w-100">
+      <nav class="navbar navbar-expand-lg w-100 p-0 position-fixed bg-white shadow-sm">
         <div class="container">
-          <a class="navbar-brand p-0 me-2" href="#">
+          <a class="navbar-brand me-2 p-0" href="#">
             <img src={LogoHedonDigital} alt="" />
           </a>
           <button
