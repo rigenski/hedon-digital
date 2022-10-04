@@ -114,3 +114,23 @@
         max-width: 100%;
     }    
 }
+
+
+/* 
+    CLASS
+*/
+
+.class-image img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.class .card {
+    min-height: 100%;
+    padding: 0 0 61px 0;
+}
+
+.class-offer {
+    left: 0;
+    bottom: 0;
+}

@@ -1,0 +1,26 @@
+footer {
+    padding: 77.5px 0 87.5px;
+}
+
+.footer-info {
+    width: 100%;
+    max-width: 175px;
+}
+
+.footer-info img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.footer-desc {
+    width: 100%;
+    max-width: 328px;
+}
+
+.footer-desc img {
+    width: 24px;
+}
+
+.footer-social img {
+    width: 40px;
+}
